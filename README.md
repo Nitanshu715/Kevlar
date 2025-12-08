@@ -4,8 +4,6 @@
 
 # 🛡️ Kevlar — Modular Browser Security Suite
 
-<img src="core/phishguard/extension/KevlarLogo.PNG" alt="Kevlar Logo">
-
 </div>
 
 </p>
