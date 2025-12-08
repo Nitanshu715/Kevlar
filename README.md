@@ -335,27 +335,27 @@ http://127.0.0.1:5000
 3. Test safe URL:
 
    ```bash
-   curl -X POST http://127.0.0.1:5000/predict      -H "Content-Type: application/json"      -d "{"url":"https://google.com"}"
+   curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d "{\"url\":\"https://google.com\"}"
    ```
 
 4. Test phishing URL:
 
    ```bash
-   curl -X POST http://127.0.0.1:5000/predict      -H "Content-Type: application/json"      -d "{"url":"http://login-secure-bank-verification.com"}"
+   curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d "{\"url\":\"http://login-secure-bank-verification.com\"}"
    ```
 
 5. Test URL Security & Privacy:
 
    ```bash
-   curl -X POST http://127.0.0.1:5000/security-check      -H "Content-Type: application/json"      -d "{"url":"https://bit.ly/test"}"
+   curl -X POST http://127.0.0.1:5000/security-check -H "Content-Type: application/json" -d "{\"url\":\"https://bit.ly/test\"}"
 
-   curl -X POST http://127.0.0.1:5000/privacy-check      -H "Content-Type: application/json"      -d "{"url":"http://example.com"}"
+   curl -X POST http://127.0.0.1:5000/privacy-check -H "Content-Type: application/json" -d "{\"url\":\"http://example.com\"}"
    ```
 
 6. Test AI Safety Checker:
 
    ```bash
-   curl -X POST http://127.0.0.1:5000/ai-check      -H "Content-Type: application/json"      -d "{"text":"Urgent! Your bank account is suspended. Click immediately to verify."}"
+   curl -X POST http://127.0.0.1:5000/ai-check -H "Content-Type: application/json" -d "{\"text\":\"Urgent! Your bank account is suspended. Click immediately.\"}"
    ```
 
 7. Show the Chrome extension scanning live websites.
