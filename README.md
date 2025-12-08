@@ -1,6 +1,12 @@
+<p align="center">
+
 # 🛡️ Kevlar — Modular Browser Security Suite
 
-![Kevlar Logo](core/phishguard/extension/KevlarLogo.PNG)
+</p>
+
+<p align="center">
+  <img src="core/phishguard/extension/KevlarLogo.PNG" alt="Kevlar Logo">
+</p>
 
 > **Kevlar** is a next‑generation browser security platform that evolved from the original **PhishGuard** prototype into a **multi‑layer, modular security suite**.  
 > It combines **machine learning**, **rule‑based security checks**, **privacy analysis**, and **AI‑style scam detection**, all exposed via a clean backend and a live Chrome extension.
