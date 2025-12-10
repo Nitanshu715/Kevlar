@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 🛡️ Kevlar — Modular Browser Security Suite
+# 🛡️ Kevlar - Modular Browser Security Suite
 
 </div>
 
