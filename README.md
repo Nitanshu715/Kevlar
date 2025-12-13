@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="core/phishguard/extension/KevlarLogo.PNG" alt="Kevlar Logo">
+  <img src="core/phishguard/extension/KevlarLogo.png" alt="Kevlar Logo">
 </p>
 
 > **Kevlar** is a next‑generation browser security platform that evolved from the original **PhishGuard** prototype into a **multi‑layer, modular security suite**.  
